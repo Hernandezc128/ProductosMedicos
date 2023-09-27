@@ -1,0 +1,30 @@
+nav {
+    /* Estilos para tu menú de navegación */
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    position: sticky;
+    top: 0px; /* Altura del encabezado */
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    
+}
+/*Con este código CSS, el menú de navegación se mantiene debajo del encabezado cuando la página se carga y luego se pega en la parte superior a medida que el usuario se desplaza hacia abajo. Asegúrate de personalizar los estilos y el contenido del encabezado y del menú de navegación según tus necesidades.*/
+
+
+section{
+    height: 1250px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(0, 174, 255);
+}
+
